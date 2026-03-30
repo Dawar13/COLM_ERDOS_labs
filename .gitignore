@@ -1,0 +1,40 @@
+# Model checkpoints (too large for git — store on HuggingFace Hub or cloud)
+checkpoints/*.pt
+checkpoints/**/*.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+wandb/
+
+# Large data files
+*.bin
+*.safetensors
+data/raw/

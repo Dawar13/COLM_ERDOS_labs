@@ -1,0 +1,10 @@
+torch>=2.0.0
+transformers>=4.40.0
+datasets>=2.18.0
+tokenizers
+accelerate
+einops
+numpy
+pandas
+scikit-learn
+matplotlib
